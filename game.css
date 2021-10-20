@@ -1,0 +1,91 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    cursor : pointer;
+    min-height: 100%;
+ }
+    
+.message
+{
+        text-align : center;
+        color : dodgerblue;
+        padding: 70px;
+        font-size : 35px;
+        font-family : gabriola;
+        content: 320*200;
+}
+
+body
+{
+    background-image : url("blink.jpg");
+    background-repeat : no-repeat;
+    background-size : cover;
+    background-position: center;
+    text-align : center;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    min-height: 100%;
+}
+
+.wrapper
+  {
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center; 
+    line-height:60px;
+  }
+
+#number
+  {
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+.button
+  {
+    display : flex;
+    justify-content : space-around;
+  }
+
+#submit
+{
+    background-color : grey;
+    color : purple;
+    padding : 20px;
+    font-family : cursive;
+    border : 2px solid black;
+    border-radius : 30px;
+}
+
+.replay
+{
+    background-color : grey;
+    color : purple;
+    padding : 20px;
+    font-family : cursive;
+    border : 2px solid black;
+    border-radius : 30px;
+}
+
+.result
+{
+    color : white;
+    font-size : 20px;
+    text-shadow : 0 0 3px #FF0000 ;
+}
+
+.history
+{
+    color : whitesmoke;
+    text-shadow : 2px 0px navy, 0px 2px purple, 2px 0px navy, 0px 2px purple;
+    font-size : 25px;
+    line-height:30px;
+}
+
+element.style {
+  height: 700px;
+  width: 450px;
+}

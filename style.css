@@ -1,0 +1,74 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    cursor : pointer;
+ }
+
+body
+  {
+    background-image : url("gg.jpg");
+    background-size: cover;
+    background-position:center;
+  }
+
+#wrapper
+  {
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    padding : 100px; 
+  }
+
+.neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+  }
+
+  h1 {
+    font-size: 60px;    
+  }
+
+h3 {
+    font-size: 60px;    
+  }
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #00f,
+      0 0 80px #00f,
+      0 0 90px #00f,
+      0 0 100px #00f,
+      0 0 150px #00f;
+    
+    }
+
+    20%, 24%, 55% {        
+      text-shadow: none;
+    }
+}
+
+.gamescript 
+{
+    padding : 10px;
+    font-size : 50px;
+    text-align : center;
+    color : white; 
+    text-shadow : 0 0 3px #FF0000, 0 0 5px #0000FF;
+    background-color : black;
+    border : 2px solid black;
+    border-radius : 40px;
+    cursor : pointer;
+    font-family : cursive;
+    align-items: center;
+}
+
+
+
