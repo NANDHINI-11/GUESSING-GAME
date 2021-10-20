@@ -33,7 +33,7 @@ const game = () => {
 
     } else if ( chances && !isWin ) {
         if (randomNumber == guess) {
-            result = "✨ YOU won the GAME...! ✨ <br> 🎊 Congratulations...🎊 <br>  🎉 🎉 YOU are the ✨😍 🥵 WINNER  🥵 😍✨  🎉 🎉!!!";
+            result = "✨ YOU won the GAME...! ✨ <br> 🎊 Congratulations...🎊 <br>  🎉 🎉 YOU are the ✨😍 WINNER 😍✨  🎉 🎉!!!";
             isWin = true;
         } else if ( randomNumber < guess ) {
             if (chances == 1) {

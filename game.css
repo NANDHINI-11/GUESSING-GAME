@@ -1,5 +1,5 @@
 *{
-    margin : 0;
+    margin : 8px;
     padding : 0;
     box-sizing : border-box;
     cursor : pointer;
@@ -13,7 +13,6 @@
         padding: 70px;
         font-size : 35px;
         font-family : gabriola;
-        content: 320*200;
 }
 
 body
@@ -86,6 +85,6 @@ body
 }
 
 element.style {
-  height: 800px;
-  width: 450px;
+  height: 1000px;
+  width: 500px;
 }
