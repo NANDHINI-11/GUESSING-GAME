@@ -30,9 +30,9 @@ body
     font-size: 60px;    
   }
 
-h3 {
-    font-size: 60px;    
-  }
+/* .heading {
+    font-size: 100px;    
+  } */
 
 @keyframes flicker {
     
