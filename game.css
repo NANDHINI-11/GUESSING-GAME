@@ -1,17 +1,17 @@
 *{
-    margin : 8px;
-    padding : 0;
+    margin : 1px;
+    padding : 0px;
     box-sizing : border-box;
     cursor : pointer;
     min-height: 100%;
  }
-    
+  
 .message
 {
         text-align : center;
         color : dodgerblue;
-        padding: 70px;
-        font-size : 35px;
+        padding: 40px; 
+        font-size : 27px;
         font-family : gabriola;
 }
 
@@ -28,13 +28,24 @@ body
     min-height: 100%;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: -9999;
+}
+
 .wrapper
   {
     display : flex;
     flex-direction : column;
     justify-content : center;
     align-items : center; 
-    line-height:60px;
+    line-height:30px;
   }
 
 #number
@@ -85,6 +96,6 @@ body
 }
 
 element.style {
-  height: 1000px;
-  width: 500px;
+  height: 700px;
+  width: 200px;
 }
